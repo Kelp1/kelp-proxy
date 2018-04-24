@@ -1,0 +1,193 @@
+	
+	/* page container*/
+.headerContainer {
+	display: flex;
+	flex-direction: column;
+	background-color: #f5f5f5;
+}
+
+/*sub box for summary*/
+#header,
+.mapAndPhotos {
+	width:950px;
+	margin: auto;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 13px;
+	line-height: 1.3125em;
+}
+/* inside header*/
+.header-left {
+	position: relative;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+
+}
+.actionClass {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+/*sub box for map*/
+
+.mapBox {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	margin-top: 5px;
+	height: 100%;
+	width: 300px;
+}
+.mapBox-map {
+	padding: 5px;
+}
+.mapBox-text {
+	width:286px;
+	height: 100%;
+}
+ul {
+	padding: 0px;
+}
+
+.mapinfo {
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 5px;	
+}
+.mapinfo a {
+	color: #0073bb;
+}
+.mapIcon {
+	height: 18px;
+	width: 18px;
+	margin-right: 8px;
+}
+#photo,
+#bookmark,
+#share,
+#checkmark_badged {
+	height: 18px;
+	width: 18px;
+	fill: grey;
+}
+#star {
+	fill: white;	
+	height: 19px;
+	width: 19px;
+}
+.titleClass {
+	display: flex;
+	margin-top: 9px;
+	align-items: baseline;
+}
+#restaurantName {
+	font-size: 36px;
+	margin-right: 10px;
+	line-height: 1.16667em;
+}
+.titleLine {
+	margin-right: 10px;
+}
+.reviewLine {
+	margin-right: 10px;
+}
+#restaurantStars {
+	width: 132px;
+	height: 25px;
+}
+#restaurantClaimed {
+	height: 20px;
+	width: 100px;
+}
+#checkmark_badged {
+	fill: #0073bb;
+	margin-right: 5px;
+}
+#histogram,
+#pencil {
+	fill: #999;
+	width: 14px;
+	height: 14px;
+}
+#restaurantDetail {
+
+	width: 60px;
+	height: 16px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	font-size: 12px;
+	line-height: 1.5em;
+	color: #999;
+	background: transparent;
+	transition: all 0.3s ease;
+}
+.categories {
+	margin-right: 10px;
+	color: #0073bb;
+}
+#bullet {
+	margin: 0px 5px;
+	font-size: 10px;
+	line-height: 18px;
+}
+.ratingClass {
+	display: flex;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+.categoryClass {
+	display: flex;
+}
+
+#writeReview {
+	display: flex;
+	align-items: center;
+	border: 1px solid #8d0005;
+	font-size: 14px;
+	height: 22px;
+	width: 135px;
+	margin-right: 12px;
+	color: white;
+	background-color: #d90007;
+	font-weight: bold;
+	border-radius: 3px;
+	line-height: 1.28571em;
+}
+#writeReview :hover{
+	color: #666;
+}
+.actionList {
+	display: flex;
+}
+#addphoto {
+	border-radius: 3px 0 0 3px;
+}
+#addToBookMark {
+	border-radius: 0px 3px 3px 0px;
+}
+.actionElements {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #ccc;
+	width: 80px;
+	text-decoration: none;
+	font-weight: bold;
+
+	line-height: 1.5em;
+	color: #666;
+	margin-left: -1px;
+	padding: 5px 8px;
+  font-size: 12px;
+}
+#restaurantClaimed,
+#restaurantDetail,
+#restaurantEdit {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
