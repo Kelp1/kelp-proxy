@@ -5,6 +5,9 @@
   align-items: center;
   justify-content: center;
 }
+.headline {
+  width:100%
+}
 
 #Summary {
   margin-left: -20px
