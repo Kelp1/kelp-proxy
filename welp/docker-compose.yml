@@ -1,0 +1,43 @@
+version: '2'
+
+services:
+  proxy:
+    images: dylanqian29/welp-proxy:latest
+    ports: 
+      - '80:3000'
+
+  # welp-photo-gallery:
+  #   image: dylanqian29/welp-photo-gallery2:latest
+  #   depends_on:
+  #     - 'database'
+  #     - 'cache'
+  #   ports: 
+  #     - '80:3003'
+
+  # welp-restaurant-details:
+  #   build: welp-restaurant-details/
+  #   depends_on:
+  #     - 'database'
+  #   ports: 
+  #     - '3002:3002'
+
+  # welp-restaurant-summary:
+  #   build: welp-restaurant-summary/
+  #   depends_on:
+  #     - 'database'
+  #   ports: 
+  #     - '3001:3001'
+  
+  # welp-review:
+  #   build: welp-review/
+  #   depends_on:
+  #     - 'database'
+  #   ports: 
+  #     - '3004:3004'
+
+  # cache: 
+  #   image: redis:latest
+
+  # database:
+  #   image: mongo:latest
+
