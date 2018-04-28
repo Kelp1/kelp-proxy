@@ -26,7 +26,7 @@
 
 .modal {
     position: fixed; /* Stay in place */
-    z-index: 5; /* Sit on top */
+    z-index: 2; /* Sit on top */
     padding-top: 25px; /* Location of the box */
     display:flex;
     left: 0;
