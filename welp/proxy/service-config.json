@@ -1,0 +1,6 @@
+{
+  "Map": "./templates/services/Map.js",
+  "Photos": "./templates/services/Photos.js",
+  "Reviews": "./templates/services/Reviews.js",
+  "Details": "./templates/services/Details.js"
+}
