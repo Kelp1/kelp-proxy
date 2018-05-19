@@ -19,18 +19,29 @@ const Summary = require('./templates/services/Summary.js').default;
 const MapBox = require('./templates/services/Map.js').default;
 const Photos = require('./templates/services/PhotoGallery.js').default;
 const Reviews = require('./templates/services/Reviews.js').default;
-const Details = require('./templates/services/App.js').default;
+//const Details = require('./templates/services/App.js').default;
+/*
+const services = {
+  //"Summary": Summary,
+  //"MapBox": MapBox,
+  //"PhotoGallery": Photos,
+  "Reviews": Reviews,
+  //"App": Details,
+}
+*/
+
 const services = {
   "Summary": Summary,
   "MapBox": MapBox,
   "PhotoGallery": Photos,
   "Reviews": Reviews,
-  "App": Details,
 }
 
-console.log('SUMMARY >>> ', services.Summary);
-console.log('MAPBOX >>>', MapBox);
+
+//console.log('SUMMARY >>> ', services.Summary);
+//console.log('MAPBOX >>>', MapBox);
 console.log('reviews >>> ', Reviews);
+console.log('photogallery >>> ', Photos);
 
 const React = require('react');
 const ReactDom = require('react-dom/server');
